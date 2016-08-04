@@ -1,0 +1,322 @@
+body{
+    font-family: 'Anonymous Pro', ;
+	.row{
+		margin: 0;
+	}
+	.banner{
+     	height: 200px;
+     	background: #D6D6D6;
+     	.name{
+     		margin-top: 30px;
+     		background: rgba(0, 0, 0, 0.6);
+     		color: #FFF;
+     	}
+     	.fron{
+     		background: rgba(0, 0, 0, 0.6);
+     		color: #FFF;
+     		margin-right: 90px;
+     	}
+     	.web{
+     		background: rgba(255, 255, 255, 0.6);
+     		color: #000;
+     		margin-right: 40px;
+     	}
+     	.or{
+     		background: rgba(255, 255, 255, 0.6);
+     		color: #000;
+     		margin-right: 140px;
+     	}
+     	.think{
+     		margin-right: 180px;
+     		background: rgba(0, 0, 0, 0.6);
+     		color: #FFF;
+     	}
+     	.triangulo{
+            position: relative;
+            bottom: 70px;
+    		border-top: 500px solid;
+    		border-left: 535px solid transparent;
+    		margin-top: 0px;
+    		margin-left: 160px;
+    		p{
+    			position: absolute;
+    			bottom: 300px;
+    			color: #FFF;
+    			right: 50px;
+    			width: 350px;
+    		}
+		}  
+	}
+	.trian{
+		height: 500px;
+		width: 0;
+		height: 0;
+		border-left: 640px solid transparent;
+		border-right: 644px solid transparent;
+		border-top: 600px solid #D6D6D6;
+		img{
+			width: 100%;
+			
+		}		
+	}
+    .about{
+        h1{
+            position: relative;
+            top: 50px;
+            left: 800px;
+            width: 145px;
+            height: 80px;
+            border: solid 6px black;
+            font-size: 48pt; 
+        }
+       .text{
+            position: relative;
+            top: 85px;
+            left: 20px;
+            
+        }
+        .text2{
+            position: relative;
+            bottom: 250px;
+            left: 20px; 
+        }
+        p{
+            font-size: 20px;
+            margin-right: 90px;
+            }
+    }
+	.skill{
+        h1{
+            position: relative;
+            left: 70px;
+            width: 180px;
+            height: 80px;
+            border: solid 6px black;
+            font-size: 48pt; 
+        }
+        .js{
+            border: 1px solid black;
+        }
+        .gith{
+            width: 200px;
+       }
+       .img-circle{
+            -webkit-box-shadow: 10px 10px 25px -10px rgba(0,0,0,0.75);
+            -moz-box-shadow: 10px 10px 25px -10px rgba(0,0,0,0.75);
+            box-shadow: 10px 10px 25px -10px rgba(0,0,0,0.75);
+        }
+        img{
+            margin: 10px;
+            width: 150px;
+            height: 150px;
+            color: red;
+            -webkit-transition: all 0.5s ease;
+            -moz-transition: all 0.5s ease;
+            -o-transition: all 0.5s ease;
+            -ms-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+        }
+        img:hover {
+        -webkit-transform: rotate(-25deg);
+        -moz-transform: rotate(-25deg);
+        -o-transform: rotate(-25deg);
+        -ms-transform: rotate(-25deg);
+        transform: rotate(-25deg);
+        }
+	}
+    .portfolio{
+        .triang2{
+            width: 0;
+            height: 0;
+            border-top: 500px solid transparent;
+            border-left: 1000px solid grey;
+            border-bottom: 500px solid transparent;
+            .css {
+                position: relative;
+                bottom: 20px;
+                right: 265px;
+                width: 250px;
+                height: 80px;
+                border: solid 6px black;
+                font-size: 48pt;
+            }
+        }
+        .gallery{
+            position: relative;
+            bottom: 395px;
+            img{
+                margin: 10px;
+                width: 260px;
+                height: 150px;
+                background: black;
+            }
+        }
+    }
+    .contact{
+        h1{
+            position: relative;
+            left: 30px;
+            bottom: 180px;
+            width: 217px;
+            height: 80px;
+            border: solid 6px black;
+            font-size: 48pt;
+        }
+        .row{
+            margin-bottom: 150px;
+            img{
+                width: 120px;
+                height: 120px;
+            }
+            .message{
+                .contact .envelope {
+                    position: absolute;
+                    height: 90px;
+                    width: 165px;
+                    left: 200px;
+                    margin-left: -83px;
+                    top: 50%;
+                    background: #F9F9F9;
+                    transition: margin-top 300ms;
+                    -ms-transition: margin-top 300ms;
+                    -moz-transition: margin-top 300ms;
+                    -o-transition: margin-top 300ms;
+                    -webkit-transition: margin-top 300ms;
+                }
+                .contact:hover .envelope {
+                    transition-delay: 150ms;
+                    -ms-transition-delay: 150ms;
+                    -moz-transition-delay: 150ms;
+                    -o-transition-delay: 150ms;
+                    margin-top: -20px;
+                }
+                .contact .envelope .top {
+                    position: absolute;
+                    top: -1px;
+                    left: 0px;
+                    width: 100%;
+                    height: 70px;
+                    z-index: 30;
+                    overflow: hidden;
+                    transform-origin: top;
+                    -ms-transform-origin: top;
+                    -moz-transform-origin: top;
+                    -o-transform-origin: top;
+                    -webkit-transform-origin: top;             
+                    transition: transform 300ms 150ms, z-index 0ms 150ms, height 300ms 0ms, top 300ms 0ms;
+                    -ms-transition: -ms-transform 300ms 150ms, z-index 0ms 150ms, height 300ms 0ms, top 300ms 0ms;
+                    -moz-transition: -moz-transform 300ms 150ms, z-index 0ms 150ms, height 300ms 0ms, top 300ms 0ms;
+                    -o-transition: -o-transform 300ms 150ms, z-index 0ms 150ms, height 300ms 0ms, top 300ms 0ms;
+                    -webkit-transition: -webkit-transform 300ms 150ms, z-index 0ms 150ms, height 300ms 0ms, top 300ms 0ms;
+                }
+                .contact:hover .envelope .top {
+                    transition: transform 300ms 0ms, height 300ms 150ms, top 300ms 150ms;
+                    -ms-transition: -ms-transform 300ms 0ms, height 300ms 150ms, top 300ms 150ms;
+                    -moz-transition: -moz-transform 300ms 0ms, height 300ms 150ms, top 300ms 150ms;
+                    -o-transition: -o-transform 300ms 0ms, height 300ms 150ms, top 300ms 150ms;
+                    -webkit-transition: -webkit-transform 300ms 0ms, height 300ms 150ms, top 300ms 150ms;                
+                    height: 10px;
+                    top: -60px;    
+                    transform: rotateX(180deg);
+                    -ms-transform: rotateX(180deg);
+                    -moz-transform: rotateX(180deg);
+                    -o-transform: rotateX(180deg);
+                    -webkit-transform: rotateX(180deg);
+                }
+                .contact .envelope .outer {
+                    position: absolute;
+                    bottom: 0px;
+                    left: 0px;
+                    border-left: 83px solid transparent;
+                    border-right: 82px solid transparent;
+                    border-top: 70px solid #EEE;
+                }
+                .contact .envelope .outer .inner {
+                    position: absolute;
+                    left: -81px;
+                    top: -73px;
+                    border-left: 81px solid transparent;
+                    border-right: 80px solid transparent;
+                    border-top: 68px solid #000;
+                }
+                .contact .envelope .bottom {
+                    position: absolute;
+                    z-index: 20;
+                    bottom: 0px;
+                    left: 2px;
+                    border-left: 81px solid transparent;
+                    border-right: 80px solid transparent;
+                    border-bottom: 45px solid #000;
+                }
+                .contact .envelope .left {
+                    position: absolute;
+                    z-index: 20; top: 0px;
+                    left: 0px;
+                    border-left: 81px solid #000;
+                    border-top: 45px solid transparent;
+                    border-bottom: 45px solid transparent;
+               }
+                .contact .envelope .right {
+                    position: absolute;
+                    z-index: 20;
+                    top: 0px;
+                    right: 0px;
+                    border-right: 80px solid #000;
+                    border-top: 45px solid transparent;
+                    border-bottom: 45px solid transparent;
+                }
+                .contact .envelope .cover {
+                    position: absolute;
+                    z-index: 15;
+                    bottom: 0px;
+                    left: 0px;
+                    height: 55%;
+                    width: 100%;
+                    background: #EEE;
+                }
+                .contact .envelope .paper {
+                    height: 83px;
+                    padding-top: 10px;
+                    background: #F9F9F9;
+                }
+                .contact:hover .envelope .paper {
+                    margin-top: -60px;
+                    transition: margin-top 300ms 150ms;
+                    -ms-transition: margin-top 300ms 150ms;
+                    -moz-transition: margin-top 300ms 150ms;
+                    -o-transition: margin-top 300ms 150ms;
+                    -webkit-transition: margin-top 300ms 150ms;
+                }
+                .contact .envelope .paper a {
+                    position: relative;
+                    display: block;
+                    font-size: 14px;
+                    margin: 5px;
+                    margin-bottom: 0px;
+                    text-align: center;
+                    color: #333;
+                    text-decoration: none;
+                }
+                .contact .envelope .paper a {
+                    color: #333;
+                    transition: color 200ms;
+                    -ms-transition: color 200ms;
+                    -moz-transition: color 200ms;
+                    -o-transition: color 200ms;
+                    -webkit-transition: color 200ms;
+                }
+                .contact .envelope .paper a:hover {
+                    color: #EEE;
+                }
+                .contact .envelope .paper a.call:hover .i {
+                    border-color: #DDD;
+                }
+            }
+        }
+    }
+    @media (max-width: 600px) {
+        .row{
+            margin: 0;
+        }
+    }
+}
